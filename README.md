@@ -19,7 +19,7 @@ BittyWorld is pioneering a decentralized global gaming ecosystem, seamlessly mer
 BittyWorld is a cutting-edge Web3 social gaming platform built on the Solana blockchain. Players can create decentralized rooms—no central server required—supporting up to eight players per room, with multiple rooms running concurrently. Engage in dynamic 2D battles, wield diverse weapons, and traverse multi-terrain, switchable maps. The platform features:
 
 - **Decentralized Multiplayer Battles**: Peer-to-peer room creation, real-time action, and customizable game settings.
-- **Dynamic $BIT Token Rewards**: Earn through victories, social engagement, and referrals, with a transparent buyback mechanism.
+- **Dynamic $BITTY Token Rewards**: Earn through victories, social engagement, and referrals, with a transparent buyback mechanism.
 - **Vibrant Social Layer**: Real-time all-channel chat, leaderboards, and cross-platform sharing.
 - **Fair Launch**: 100% Pump.fun fair launch, no presale or team allocation—community-driven from day one.
 - **Solana-Powered**: High throughput, low fees, and on-chain transparency for all gameplay and rewards.
@@ -37,22 +37,22 @@ BittyWorld is a cutting-edge Web3 social gaming platform built on the Solana blo
 
 3. **Social Interaction**
    - Real-time, all-channel chat enables cross-room communication and community building.
-   - Players can like, comment, and share highlights, with top moments earning additional $BIT rewards.
+   - Players can like, comment, and share highlights, with top moments earning additional $BITTY rewards.
 
 4. **Token Economy & Rewards**
-   - $BIT tokens are earned for kills, leaderboard rankings, event participation, and social contributions.
+   - $BITTY tokens are earned for kills, leaderboard rankings, event participation, and social contributions.
    - Buyback wallet sustains the reward pool, with periodic repurchases and community-driven governance.
-   - $BIT is used for premium skins, power-ups, custom rooms, and on-chain voting.
+   - $BITTY is used for premium skins, power-ups, custom rooms, and on-chain voting.
 
 5. **Governance & Community**
-   - $BIT holders vote on new features, maps, and events, shaping the future of BittyWorld.
+   - $BITTY holders vote on new features, maps, and events, shaping the future of BittyWorld.
    - Transparent reporting and on-chain analytics ensure trust and long-term engagement.
 
 ## Technical Architecture
 
 - **Frontend**: React/Next.js, Phaser.js for game rendering, Solana Web3.js for wallet integration.
 - **Backend**: Node.js/Express, WebSocket for real-time sync, PostgreSQL & Redis for data.
-- **Smart Contracts**: Rust & Anchor on Solana, managing $BIT distribution, buyback, and governance.
+- **Smart Contracts**: Rust & Anchor on Solana, managing $BITTY distribution, buyback, and governance.
 - **Decentralized Storage**: Arweave for battle snapshots and chat logs.
 - **Infrastructure**: Docker, Kubernetes, QuickNode RPC for high performance.
 
