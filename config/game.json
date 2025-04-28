@@ -1,0 +1,63 @@
+{
+  "game": {
+    "maxPlayersPerRoom": 8,
+    "defaultGameDuration": 600,
+    "defaultPlayerHealth": 100,
+    "defaultPlayerArmor": 50,
+    "respawnTime": 5,
+    "weapons": {
+      "hammer": {
+        "damage": 20,
+        "range": 1,
+        "cooldown": 1,
+        "ammo": -1
+      },
+      "grenade": {
+        "damage": 50,
+        "range": 3,
+        "cooldown": 3,
+        "ammo": 3
+      },
+      "submachineGun": {
+        "damage": 10,
+        "range": 5,
+        "cooldown": 0.2,
+        "ammo": 30
+      }
+    },
+    "items": {
+      "healthPack": {
+        "healing": 25,
+        "spawnRate": 0.1
+      },
+      "armorPack": {
+        "protection": 25,
+        "spawnRate": 0.05
+      },
+      "ammoPack": {
+        "ammo": 30,
+        "spawnRate": 0.15
+      }
+    },
+    "maps": {
+      "urbanRuins": {
+        "name": "Urban Ruins",
+        "size": [800, 600],
+        "spawnPoints": 8,
+        "itemSpawnPoints": 20
+      },
+      "desertBase": {
+        "name": "Desert Base",
+        "size": [1000, 800],
+        "spawnPoints": 8,
+        "itemSpawnPoints": 25
+      },
+      "forestMaze": {
+        "name": "Forest Maze",
+        "size": [1200, 900],
+        "spawnPoints": 8,
+        "itemSpawnPoints": 30
+      }
+    }
+  }
+} 

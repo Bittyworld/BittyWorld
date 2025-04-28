@@ -1,0 +1,38 @@
+{
+  "name": "bittyworld",
+  "version": "1.0.0",
+  "description": "A decentralized Web3 gaming platform built on Solana blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd client && npm run dev\" \"cd server && npm run dev\"",
+    "build": "concurrently \"cd client && npm run build\" \"cd server && npm run build\"",
+    "start": "concurrently \"cd client && npm start\" \"cd server && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/bittyworld.git"
+  },
+  "keywords": [
+    "web3",
+    "gaming",
+    "solana",
+    "blockchain",
+    "decentralized"
+  ],
+  "author": "BittyWorld Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-org/bittyworld/issues"
+  },
+  "homepage": "https://github.com/your-org/bittyworld#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ]
+} 
