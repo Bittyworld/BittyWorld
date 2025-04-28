@@ -66,7 +66,7 @@ BittyWorld is a cutting-edge Web3 social gaming platform built on the Solana blo
 ### Installation
 ```bash
 # Clone the repository
-$ git clone https://github.com/your-org/bittyworld.git
+$ git clone https://github.com/Bittyworld/BittyWorld.git
 $ cd bittyworld
 
 # Install dependencies
